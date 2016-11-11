@@ -1,0 +1,28 @@
+      //
+//  PrefixHeader.pch
+//  CACloud
+//
+//  Created by Sure on 15/11/19.
+//  Copyright © 2015年 Sure. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import "AFNetWorking/AFNetworking.h"
+#import "JSONKit.h"
+//#import "AccountInformation.h"
+//#import "Masonry.h"
+
+#define kScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define kScreenheight  [UIScreen mainScreen].bounds.size.height
+
+#define RGBCOLOR(R,G,B,A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+
+
+#endif /* PrefixHeader_pch */
